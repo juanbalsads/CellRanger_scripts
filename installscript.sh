@@ -19,4 +19,4 @@ echo 'export PATH=$PATH:/home/jbalsads/yard/apps/cellranger-3.1.0' >> ~/.bashrc 
 cellranger sitecheck > /home/jbalsads/results/sitecheck.txt;
 sudo lshw > /home/jbalsads/results/hardwarefeatures.txt;
 echo "CELLRANGER sitecheck succesfully run";
-exit 0;
+sudo poweroff;
